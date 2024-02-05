@@ -6,4 +6,4 @@ const palavras = ["Este", "é", "um", "exercício", "interessante"];
 
 const novaString = palavras.join(" ");
 
-console.log("Nova String: " + novaString);
+console.log(novaString);
