@@ -4,10 +4,10 @@
 // ela pode dirigir; caso contrário, não pode.
 
 
-function verificarPermissaoParaDirigir(idade) {
+function verificarPermissao(idade) {
     const podeDirigir = idade >= 18 ? "Pode dirigir" : "Não pode dirigir";
     console.log(podeDirigir);
 }
 
-verificarPermissaoParaDirigir(20); 
-verificarPermissaoParaDirigir(16); 
+verificarPermissao(20); 
+verificarPermissao(16); 
