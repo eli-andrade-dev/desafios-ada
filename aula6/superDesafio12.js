@@ -10,7 +10,7 @@ function rolarDado(lados) {
    return Math.floor(Math.random() * lados) + 1;
 }
 
-function simuladorDeRolagemDeDados(quantidadeDados, quantidadeLados, quantidadeTentativas) {
+function RolagemDeDados(quantidadeDados, quantidadeLados, quantidadeTentativas) {
    for (let t = 0; t < quantidadeTentativas; t++) {
        let soma = 0;
 
@@ -29,4 +29,4 @@ let quantidadeDados = parseInt(prompt("Quantidade de dados:"));
 let quantidadeLados = parseInt(prompt("Quantidade de lados:"));
 let quantidadeTentativas = parseInt(prompt("Quantidade de tentativas:"));
 
-simuladorDeRolagemDeDados(quantidadeDados, quantidadeLados, quantidadeTentativas);
+RolagemDeDados(quantidadeDados, quantidadeLados, quantidadeTentativas);

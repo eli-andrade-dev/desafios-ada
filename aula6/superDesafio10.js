@@ -8,7 +8,7 @@ function rolarDado() {
    return Math.floor(Math.random() * 6) + 1;
 }
 
-function simuladorDeRolagemDeDados(quantidadeDados) {
+function RolagemDeDados(quantidadeDados) {
    let soma = 0;
 
    for (let i = 0; i < 2; i++) {
@@ -22,5 +22,4 @@ function simuladorDeRolagemDeDados(quantidadeDados) {
 }
 
 let quantidadeDados = parseInt(prompt("Quantidade de dados (N) de 6 lados:"));
-
-simuladorDeRolagemDeDados();
+RolagemDeDados();
